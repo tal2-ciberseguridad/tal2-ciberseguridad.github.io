@@ -1,0 +1,155 @@
+body {
+    margin: 0px; 
+}
+
+.menuSuperior {
+    background-color: #11a0c4;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .menuSuperior h1 {
+    float: left;
+    margin: 15px;
+  }
+   
+  .menuSuperior ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+  }
+  
+  .menuSuperior li {
+    padding: 20px;
+  }
+  
+  .menuSuperior a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .menuSuperior a:hover {
+    color: #000;
+  }
+
+  .contenido {
+    display: flex;
+    margin-left:20%;
+    margin-right:20%;
+  }
+  .contenido p {
+    font-size: 20px;
+  }
+  .titulo-categorias {
+    width: 100%;
+    background-color: #dbdbdb;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  .portada {
+    position: relative;
+  }
+
+  .titulo-portada {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .titulo-portada h1 {
+    padding:20px;
+    z-index: 10;
+    background-color: #0000005e;
+  }
+  .img-portada {
+    height: 100vh;
+    width:100%;
+    filter: brightness(80%) grayscale(40%);
+  }
+
+  .img-portada-categoria {
+    height: 30vh;
+    width:100%;
+    filter: brightness(80%) grayscale(40%);
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    flex-basis: calc(50% - 46px);
+    margin: 3px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    color:#000;
+    text-decoration: none;
+
+  }
+  .card:hover {
+    background-color: #11a0c4;
+    color: #fff;
+  }
+  
+
+  footer {
+    background-color: #11a0c4;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  @media (max-device-width:1050px) or (max-width:1050px){
+    .menuSuperior ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: block;
+      text-align: center;
+    }
+    .menuSuperior li {
+      padding: 10px;
+    }
+    .contenido {
+      display: flex;
+      margin-left:8%;
+      margin-right:8%;
+    }
+    .menuSuperior h1 {
+      width: 100%;
+      display: block;
+      text-align: center;
+      margin-right:0px;
+      margin-left: 0px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+    .card {
+      flex-basis: calc(100%);
+  }
+  .img-portada {
+    height: 30vh;
+  }
+}
+  

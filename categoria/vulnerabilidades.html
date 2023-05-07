@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CIBERSEGURIDAD</title>
+    <!-- Estilo -->
+    <link rel="stylesheet" type="text/css" href="./../css/styles.css">
+</head>
+
+<body>
+
+    <!-- Menu superior -->
+    <nav class="menuSuperior">
+        <h1><a href="./../index.html">CIBERSEGURIDAD</h1>
+        <ul>
+
+            <li class="categoria">
+                <a href="./principios.html">Principios</a>
+            </li>
+            <li class="categoria">
+                <a href="./medidas.html">Medidas</a>
+            </li>
+            <li class="categoria">
+                <a href="./malware.html">Malware</a>
+            </li>
+            <li class="categoria">
+                <a href="./vulnerabilidades.html">Vulnerabilidades</a>
+            </li>
+            <li class="categoria">
+                <a href="./ciberdelincuentes.html">Ciberdelincuentes</a>
+            </li>
+            <li class="categoria">
+                <a href="./salidas-laborales.html">Salidas laborales</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="portada">
+        <img class="img-portada-categoria" src="./../img/vulnerabilidades.png" alt="Imagen de vulnerabilidades">
+        <div class="titulo-portada">
+            <h1>VULNERABILIDADES</h1>
+        </div>
+    </div>
+    <div class="contenido">
+        <div>
+            <p> En términos informáticos una vulnerabilidad es una debilidad que existe en un sistema y que esta puede
+                ser utilizada por una persona malintencionada, el atacante, para comprometer su seguridad y así poder
+                hacerse con datos e información valiosa.
+            </p>
+            <p>Estas vulnerabilidades pueden presentarse por fallos en el diseño, errores en la configuración o por
+                procedimientos no robustos. Las más peligrosas son aquellas que permiten al atacante ejecutar código
+                dañino en el sistema.</p>
+            <p>Para que un atacante pueda aprovechar dicha vulnerabilidad, debe poder conectarse al sistema informático
+                del usuario, muchas veces esto tampoco es un problema ya que a través de la red en muchas ocasiones
+                pueden acceder.</p>
+            <h2>Tipos de vulnerabilidades</h2>
+            <p>Existen numerosos tipos de vulnerabilidades informáticas, y hay que tenerlas en cuenta independientemente
+                de la vulnerabilidad que sea ya que cada una puede tener distintas soluciones y estas se pueden producir
+                en cualquiera de las etapas de desarrollo, implementación o mantenimiento de un software.</p>
+            <p>Estas vulnerabilidades comentadas anteriormente son las de diseño, las de implementación, las que
+                aparecen por falta de mantenimiento del software o las vulnerabilidades por uso o causadas por el factor
+                humano (las menos consideradas). A parte de lo comentado, también se pueden clasificar general y
+                globalmente de esta forma:</p>
+            <ul>
+                <li>
+                    <p>De desbordamiento de buffer: En la situación donde un programa no controla la cantidad de datos
+                        que se copian en el buffer. Significa que si dicha cantidad es superior a la del buffer entonces
+                        los bytes restantes se almacenan en zonas de la memoria adyacentes, de manera que se sobrescriba
+                        el contenido original. Se utiliza para conseguir privilegios de admin</p>
+                </li>
+                <li>
+                    <p>De condición de carrera (Race Condition): Ocurre cuando varios procesos acceden al mismo tiempo a
+                        un recurso compartido.</p>
+                </li>
+                <li>
+                    <p>De error de formato de cadena (Format String Bugs): Ocurren por aceptar sin validación la entrada
+                        de datos proporcionada por el usuario. Corresponde a un error de programación. El lenguaje más
+                        afectado es C y C++.</p>
+                </li>
+                <li>
+                    <p>De Cross Site Scripting (XSS): Todos los ataques que permitan ejecutar scripts como JavaScript,
+                        en el contexto de otro sitio web. Se usa para realizar ataques de phishing, donde la victima
+                        cree que está en un sitio web por la URL pero realmente está en otra web.</p>
+                </li>
+                <li>
+                    <p>De inyección SQL: Ocurre cuando se inserta un código SQL invasor dentro del código SQL
+                        programado, con la finalidad de alterar el funcionamiento de dicho programa y poder obtener
+                        diferentes datos.</p>
+                </li>
+                <li>
+                    <p>De denegación de servicio: Esto causa que el servicio o el recurso sea inaccesible para alguien
+                        autorizado. Se puede dar por una sobrecarga del recurso de la víctima</p>
+                </li>
+                <li>
+                    <p>De ventanas engañosas (Window Spoofing): Son aquellas donde el usuario da algún tipo de
+                        información confidencial o
+                        simplemente hace clic y con eso ya pueden obtener datos del ordenador para posteriormente
+                        realizar el ataque.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <h1 class="titulo-categorias">CATEGORIAS</h1>
+    <div class="contenido">
+        <div class="cards">
+            <a class="card" href="./principios.html">
+                <h2>Principios</h2>
+                <p>Para entender en que consiste la seguridad, la definición que le otorga ISACA (Information
+                    Systems Audit and Control Association) es: “Protección de activos de información a través del
+                    tratamiento de amenazas que ponen en riesgo la información que es procesada, almacenada y
+                    transportada por los sistemas de información que se encuentran interconectados”</p>
+            </a>
+            <a class="card" href="./medidas.html">
+                <h2>Medidas</h2>
+                <p>Según el Centro Criptológico Nacional (CCN-CERT), se pueden clasificar los productos cualificados
+                    en el ámbito de la seguridad en las siguientes familias</p>
+            </a>
+            <a class="card" href="./malware.html">
+                <h2>Malware</h2>
+                <p>Un malware es un término que abarca cualquier tipo de software malicioso construido para atacar,
+                    dañar y explotar cualquier dispositivo, servicio o red programable</p>
+            </a>
+            <a class="card" href="./vulnerabilidades.html">
+                <h2>Vulnerabilidades</h2>
+                <p>En términos informáticos una vulnerabilidad es una debilidad que existe en un sistema y que esta
+                    puede ser utilizada por una persona malintencionada, el atacante, para comprometer su seguridad
+                    y así poder hacerse con datos e información valiosa</p>
+            </a>
+            <a class="card" href="./ciberdelincuentes.html">
+                <h2>Ciberdelincuentes</h2>
+                <p>Un hacker, también llamado pirata informático es una persona que posee conocimientos y
+                    habilidades en el dominio de informática y se dedica a acceder a sistemas informáticos para
+                    realizar modificaciones en el mismo. Un hacker tiene que conocer el funcionamiento de los
+                    diferentes sistemas informáticos con el fin de detectar fallos de seguridad informática,
+                    encontrar errores y superar los sistemas de seguridad</p>
+            </a>
+            <a class="card" href="./salidas-laborales.html">
+                <h2>Salidas laborales</h2>
+                <p>El entorno de la ciberseguridad es uno de los que evoluciona más rápido en la era digital, debido
+                    a la cantidad de amenazas que surgen diariamente en relación con los equipos informáticos, los
+                    dispositivos móviles y las redes corporativas, y al creciente uso que se hace de los sistemas de
+                    almacenamiento en la nube. Es un sector de los que tienen un mayor crecimiento y tasa de
+                    empleabilidad</p>
+            </a>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <p>Derechos reservados © 2023</p>
+    </footer>
+</body>
+
+</html>

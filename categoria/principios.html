@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CIBERSEGURIDAD</title>
+    <!-- Estilo -->
+    <link rel="stylesheet" type="text/css" href="./../css/styles.css">
+</head>
+
+<body>
+
+    <!-- Menu superior -->
+    <nav class="menuSuperior">
+        <h1><a href="./../index.html">CIBERSEGURIDAD</h1>
+        <ul>
+
+            <li class="categoria">
+                <a href="./principios.html">Principios</a>
+            </li>
+            <li class="categoria">
+                <a href="./medidas.html">Medidas</a>
+            </li>
+            <li class="categoria">
+                <a href="./malware.html">Malware</a>
+            </li>
+            <li class="categoria">
+                <a href="./vulnerabilidades.html">Vulnerabilidades</a>
+            </li>
+            <li class="categoria">
+                <a href="./ciberdelincuentes.html">Ciberdelincuentes</a>
+            </li>
+            <li class="categoria">
+                <a href="./salidas-laborales.html">Salidas laborales</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="portada">
+        <img class="img-portada-categoria" src="./../img/principios.jpg" alt="Imagen de principios">
+        <div class="titulo-portada">
+            <h1>PRINCIPIOS DE LA SEGURIDAD</h1>
+        </div>
+    </div>
+    <div class="contenido">
+        <div>
+            <p> Para entender en que consiste la seguridad, la definición que le otorga ISACA (Information Systems Audit
+                and
+                Control Association) es: “Protección de activos de información a través del tratamiento de amenazas que
+                ponen en riesgo la información que es procesada, almacenada y transportada por los sistemas de
+                información
+                que se encuentran interconectados”
+            </p>
+            <P>Para garantizar que la definición anterior se cumpla, existen siete principios para tener en cuenta:</p>
+            <h2>Identidad</h2>
+            <p>Este primer principio permite asociar un determinado valor a una determinada entidad, haciendo que esta
+                se
+                distinga de las demás. Un ejemplo de identidad sería el nombre de un usuario dentro de una organización.
+            </p>
+            <h2>Autenticación</h2>
+            <p>El principio de autenticación permite la verificación de la identidad de una entidad. De hecho, esta
+                cualidad
+                permite comprobar si alguien es quien dice ser, una de las implementaciones más conocidas de este
+                ejemplo es
+                el uso de usuarios y contraseñas.</p>
+            <h2>Autorización</h2>
+            <p>Esta cualidad permite la comprobación de que la solicitud o acceso a un recurso se encuentra dentro de
+                los
+                privilegios que posee la entidad que lo solicita. Para garantizar este principio, existen por ejemplo
+                modelos que definen los privilegios de los usuarios como los mínimos necesarios, definiendo de forma más
+                efectiva cuáles son las entidades que pueden acceder a determinados recursos.</p>
+            <h2>Confidencialidad</h2>
+            <p>Este principio permite que los datos y la información no sean accesibles antes personas y sistemas
+                indeseados, haciendo que la información se encuentre
+                cifrada y que solo pueda hacer legible por aquellas personas o sistemas autorizados. Por ejemplo, si una
+                entidad no autorizada logra obtener acceso a la información, esta no podrá comprender la información
+                debido
+                a que se encuentra encriptada. Esta cualidad se puede implementar mediante el uso de criptografía
+                simétrica
+                o asimétrica, la criptografía asimétrica consiste en que tanto el emisor como el receptor de la
+                información
+                conocen una clave compartida qué será utilizada para descifrar la información. En el caso de la
+                criptografía
+                asimétrica, cada entidad tiene dos claves Una de ellas de nominada clave pública qué conoce cualquier
+                usuario y la otra una clave privada que solo conoce la propia entidad. Cuando el emisor mande un mensaje
+                utilizando criptografía asimétrica, cifrará el mensaje con la clave pública del receptor y está la
+                conocerá
+                debido que es una clave pública. Una vez enviado el mensaje el receptor desencapotará el mensaje
+                utilizando
+                su clave privada.</p>
+            <h2>Disponibilidad</h2>
+            <p>
+                Como su nombre indica, el principio de disponibilidad se centra en que la información y los servicios
+                sean
+                accesibles en todo momento. Además, este principio implica cuándo la información que la información
+                eliminada sea recuperable en cualquier momento pudiendo evitar así pérdidas de información Esta
+                característica, se considera una de las más importantes en las grandes empresas e infraestructuras
+                críticas
+                cómo pueden ser hospitales, aeropuertos o entidades gubernamentales, debido a que necesitan que sus
+                servicios se encuentren funcionando y la información está accesible en todo momento.
+            </p>
+            <h2>Integridad</h2>
+            <p>
+                Este principio garantiza que la información no haya sido modificada, verificando que no se hayan borrado
+                ni
+                editado datos desde que fueron generados. Para lograr esto se utilizan algoritmos criptográficos que se
+                encargan de generar un texto corto llamado hash a partir de los datos originales. Al comparar el hash
+                generado previamente a partir de los datos originales con un hash originado de los datos actuales, se
+                puede
+                decir que si se obtiene el mismo resultado implica que es la información sigue siendo la misma sin
+                embargo
+                sí los gases resultantes son distintos esto implica que la información ha sido modificada.
+            </p>
+            <h2>No repudio</h2>
+            <p> El no repudio consiste en la garantía de que un emisor no pueda renunciar a una determinada información
+                emitida. Un ejemplo de medida para garantizar esta cualidad, son el uso de firmas electrónicas, el
+                proceso
+                de funcionamiento es bastante similar halo utilizado en la confidencialidad con la criptografía
+                asimétrica,
+                pero en este caso el emisor del mensaje lo cifra con su clave privada, pudiendo descifrarlo cualquier
+                usuario con la clave pública del emisor. Así en el caso de que el mensaje se descifre con la clave
+                pública
+                se verifica la identidad del emisor puesto que solo puede haber sido cifrado con la clave privada que
+                conoce
+                el mismo.</p>
+        </div>
+    </div>
+    <h1 class="titulo-categorias">CATEGORIAS</h1>
+    <div class="contenido">
+        <div class="cards">
+            <a class="card" href="./principios.html">
+                <h2>Principios</h2>
+                <p>Para entender en que consiste la seguridad, la definición que le otorga ISACA (Information
+                    Systems Audit and Control Association) es: “Protección de activos de información a través del
+                    tratamiento de amenazas que ponen en riesgo la información que es procesada, almacenada y
+                    transportada por los sistemas de información que se encuentran interconectados”</p>
+            </a>
+            <a class="card" href="./medidas.html">
+                <h2>Medidas</h2>
+                <p>Según el Centro Criptológico Nacional (CCN-CERT), se pueden clasificar los productos cualificados
+                    en el ámbito de la seguridad en las siguientes familias</p>
+            </a>
+            <a class="card" href="./malware.html">
+                <h2>Malware</h2>
+                <p>Un malware es un término que abarca cualquier tipo de software malicioso construido para atacar,
+                    dañar y explotar cualquier dispositivo, servicio o red programable</p>
+            </a>
+            <a class="card" href="./vulnerabilidades.html">
+                <h2>Vulnerabilidades</h2>
+                <p>En términos informáticos una vulnerabilidad es una debilidad que existe en un sistema y que esta
+                    puede ser utilizada por una persona malintencionada, el atacante, para comprometer su seguridad
+                    y así poder hacerse con datos e información valiosa</p>
+            </a>
+            <a class="card" href="./ciberdelincuentes.html">
+                <h2>Ciberdelincuentes</h2>
+                <p>Un hacker, también llamado pirata informático es una persona que posee conocimientos y
+                    habilidades en el dominio de informática y se dedica a acceder a sistemas informáticos para
+                    realizar modificaciones en el mismo. Un hacker tiene que conocer el funcionamiento de los
+                    diferentes sistemas informáticos con el fin de detectar fallos de seguridad informática,
+                    encontrar errores y superar los sistemas de seguridad</p>
+            </a>
+            <a class="card" href="./salidas-laborales.html">
+                <h2>Salidas laborales</h2>
+                <p>El entorno de la ciberseguridad es uno de los que evoluciona más rápido en la era digital, debido
+                    a la cantidad de amenazas que surgen diariamente en relación con los equipos informáticos, los
+                    dispositivos móviles y las redes corporativas, y al creciente uso que se hace de los sistemas de
+                    almacenamiento en la nube. Es un sector de los que tienen un mayor crecimiento y tasa de
+                    empleabilidad</p>
+            </a>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <p>Derechos reservados © 2023</p>
+    </footer>
+</body>
+
+</html>
